@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E71E82FBDC6E6F29EFFED525 /* Pods_CalendarCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D08621B4754863821C3D3FFD /* Pods_CalendarCocoa.framework */; };
+		F014C35A231621D300E5DDFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F014C359231621D300E5DDFA /* AppDelegate.swift */; };
+		F014C35C231621D300E5DDFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F014C35B231621D300E5DDFA /* ViewController.swift */; };
+		F014C35F231621D300E5DDFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F014C35D231621D300E5DDFA /* Main.storyboard */; };
+		F014C362231621D300E5DDFA /* CalendarCocoa.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F014C360231621D300E5DDFA /* CalendarCocoa.xcdatamodeld */; };
+		F014C364231621D400E5DDFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F014C363231621D400E5DDFA /* Assets.xcassets */; };
+		F014C367231621D400E5DDFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F014C365231621D400E5DDFA /* LaunchScreen.storyboard */; };
+		F014C36F2316349100E5DDFA /* CalendarViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F014C36E2316349100E5DDFA /* CalendarViewCell.xib */; };
+		F014C371231634A600E5DDFA /* CalendarViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F014C370231634A600E5DDFA /* CalendarViewCell.swift */; };
+		F089289C231E070500358106 /* CalendarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F089289B231E070500358106 /* CalendarModel.swift */; };
+		F089289E231E235200358106 /* PesananModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F089289D231E235200358106 /* PesananModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25175FFC17F072D6F303BA1E /* Pods-CalendarCocoa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalendarCocoa.release.xcconfig"; path = "Target Support Files/Pods-CalendarCocoa/Pods-CalendarCocoa.release.xcconfig"; sourceTree = "<group>"; };
+		8F9FD3EBCDBEBB822D7D16C9 /* Pods-CalendarCocoa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalendarCocoa.debug.xcconfig"; path = "Target Support Files/Pods-CalendarCocoa/Pods-CalendarCocoa.debug.xcconfig"; sourceTree = "<group>"; };
+		D08621B4754863821C3D3FFD /* Pods_CalendarCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalendarCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F014C356231621D300E5DDFA /* CalendarCocoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalendarCocoa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F014C359231621D300E5DDFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F014C35B231621D300E5DDFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F014C35E231621D300E5DDFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F014C361231621D300E5DDFA /* CalendarCocoa.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CalendarCocoa.xcdatamodel; sourceTree = "<group>"; };
+		F014C363231621D400E5DDFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F014C366231621D400E5DDFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F014C368231621D400E5DDFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F014C36E2316349100E5DDFA /* CalendarViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalendarViewCell.xib; sourceTree = "<group>"; };
+		F014C370231634A600E5DDFA /* CalendarViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewCell.swift; sourceTree = "<group>"; };
+		F089289B231E070500358106 /* CalendarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarModel.swift; sourceTree = "<group>"; };
+		F089289D231E235200358106 /* PesananModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PesananModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F014C353231621D300E5DDFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E71E82FBDC6E6F29EFFED525 /* Pods_CalendarCocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D2C1D458FD4A6DECAEF48F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F9FD3EBCDBEBB822D7D16C9 /* Pods-CalendarCocoa.debug.xcconfig */,
+				25175FFC17F072D6F303BA1E /* Pods-CalendarCocoa.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A376E9842F3C0CDB31865C0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D08621B4754863821C3D3FFD /* Pods_CalendarCocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F014C34D231621D300E5DDFA = {
+			isa = PBXGroup;
+			children = (
+				F014C358231621D300E5DDFA /* CalendarCocoa */,
+				F014C357231621D300E5DDFA /* Products */,
+				4D2C1D458FD4A6DECAEF48F2 /* Pods */,
+				A376E9842F3C0CDB31865C0B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F014C357231621D300E5DDFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F014C356231621D300E5DDFA /* CalendarCocoa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F014C358231621D300E5DDFA /* CalendarCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				F014C359231621D300E5DDFA /* AppDelegate.swift */,
+				F014C35B231621D300E5DDFA /* ViewController.swift */,
+				F014C35D231621D300E5DDFA /* Main.storyboard */,
+				F014C36E2316349100E5DDFA /* CalendarViewCell.xib */,
+				F014C370231634A600E5DDFA /* CalendarViewCell.swift */,
+				F014C363231621D400E5DDFA /* Assets.xcassets */,
+				F014C365231621D400E5DDFA /* LaunchScreen.storyboard */,
+				F014C368231621D400E5DDFA /* Info.plist */,
+				F014C360231621D300E5DDFA /* CalendarCocoa.xcdatamodeld */,
+				F089289B231E070500358106 /* CalendarModel.swift */,
+				F089289D231E235200358106 /* PesananModel.swift */,
+			);
+			path = CalendarCocoa;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F014C355231621D300E5DDFA /* CalendarCocoa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F014C36B231621D400E5DDFA /* Build configuration list for PBXNativeTarget "CalendarCocoa" */;
+			buildPhases = (
+				015C53812B0ED651E38F450E /* [CP] Check Pods Manifest.lock */,
+				F014C352231621D300E5DDFA /* Sources */,
+				F014C353231621D300E5DDFA /* Frameworks */,
+				F014C354231621D300E5DDFA /* Resources */,
+				1C87833D63BA0F93F9519F14 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalendarCocoa;
+			productName = CalendarCocoa;
+			productReference = F014C356231621D300E5DDFA /* CalendarCocoa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F014C34E231621D300E5DDFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Apple Developer Academy";
+				TargetAttributes = {
+					F014C355231621D300E5DDFA = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = F014C351231621D300E5DDFA /* Build configuration list for PBXProject "CalendarCocoa" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F014C34D231621D300E5DDFA;
+			productRefGroup = F014C357231621D300E5DDFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F014C355231621D300E5DDFA /* CalendarCocoa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F014C354231621D300E5DDFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F014C367231621D400E5DDFA /* LaunchScreen.storyboard in Resources */,
+				F014C364231621D400E5DDFA /* Assets.xcassets in Resources */,
+				F014C36F2316349100E5DDFA /* CalendarViewCell.xib in Resources */,
+				F014C35F231621D300E5DDFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		015C53812B0ED651E38F450E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CalendarCocoa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C87833D63BA0F93F9519F14 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CalendarCocoa/Pods-CalendarCocoa-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCalendar.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CalendarCocoa/Pods-CalendarCocoa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F014C352231621D300E5DDFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F014C35C231621D300E5DDFA /* ViewController.swift in Sources */,
+				F089289C231E070500358106 /* CalendarModel.swift in Sources */,
+				F014C35A231621D300E5DDFA /* AppDelegate.swift in Sources */,
+				F014C371231634A600E5DDFA /* CalendarViewCell.swift in Sources */,
+				F089289E231E235200358106 /* PesananModel.swift in Sources */,
+				F014C362231621D300E5DDFA /* CalendarCocoa.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F014C35D231621D300E5DDFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F014C35E231621D300E5DDFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F014C365231621D400E5DDFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F014C366231621D400E5DDFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F014C369231621D400E5DDFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F014C36A231621D400E5DDFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F014C36C231621D400E5DDFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F9FD3EBCDBEBB822D7D16C9 /* Pods-CalendarCocoa.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DX58RSQ5M;
+				INFOPLIST_FILE = CalendarCocoa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ADA.CalendarCocoa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F014C36D231621D400E5DDFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25175FFC17F072D6F303BA1E /* Pods-CalendarCocoa.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DX58RSQ5M;
+				INFOPLIST_FILE = CalendarCocoa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ADA.CalendarCocoa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F014C351231621D300E5DDFA /* Build configuration list for PBXProject "CalendarCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F014C369231621D400E5DDFA /* Debug */,
+				F014C36A231621D400E5DDFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F014C36B231621D400E5DDFA /* Build configuration list for PBXNativeTarget "CalendarCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F014C36C231621D400E5DDFA /* Debug */,
+				F014C36D231621D400E5DDFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F014C360231621D300E5DDFA /* CalendarCocoa.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F014C361231621D300E5DDFA /* CalendarCocoa.xcdatamodel */,
+			);
+			currentVersion = F014C361231621D300E5DDFA /* CalendarCocoa.xcdatamodel */;
+			path = CalendarCocoa.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F014C34E231621D300E5DDFA /* Project object */;
+}

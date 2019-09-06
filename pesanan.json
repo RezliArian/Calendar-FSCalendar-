@@ -1,0 +1,59 @@
+{
+	"pesanan": [{
+		"tanggal": "2019/09/18",
+		"date": "Warung Eci",
+		"makanan": "13:00 pm",
+		"status": "Belum dikirim",
+		"bank": "BCA",
+		"pemilikBank": "Yessy",
+		"noRek" : "1234567892",
+    	"total": "25.000",
+    	"detail1": "Nasi Kuning",
+        "jumlah1": "x1",
+        "detail2": "Nasi Uduk",
+    	"jumlah2": "x2"
+	},
+	{
+		"tanggal": "2019/09/17",
+		"date": "Lesehan Sultan",
+		"makanan": "16:00 pm",
+		"status": "Belum dikirim",
+		"bank": "BCA",
+		"pemilikBank": "Rajesh",
+		"noRek" : "1234561111",
+    	"total": "54.000",
+    	"detail1": "Kebab Sapi",
+        "jumlah1": "x1",
+        "detail2": "Nasi Briyani",
+    	"jumlah2": "x2"
+	},
+	{
+		"tanggal": "2019/09/17",
+		"date": "ErFo",
+		"makanan": "17:00 pm",
+		"status": "Belum dikirim",
+		"bank": "BCA",
+		"pemilikBank": "Renny Rustam",
+		"noRek" : "1234567822",
+    	"total": "350.000",
+    	"detail1": "Rendang Daging",
+        "jumlah1": "x1",
+        "detail2": "Lapis Legit",
+    	"jumlah2": "x1"
+	},
+	{
+		"tanggal": "2019/09/19",
+		"date": "Noni Kitchen",
+		"makanan": "17:00 pm",
+		"status": "Belum dikirim",
+		"bank": "BCA",
+		"pemilikBank": "Elizabeth",
+		"noRek" : "1234567822",
+    	"total": "49.000",
+    	"detail1": "Soto Ayam",
+        "jumlah1": "x1",
+        "detail2": "Buyan",
+    	"jumlah2": "x3"
+	}
+]
+}
